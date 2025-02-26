@@ -31,7 +31,8 @@ A simple Chrome extension that lets you save and paste frequently used URLs (or 
 
 ## Screenshots
 
-*(Screenshots coming soon)*
+![Popopu Menu on extension bar](screenshots/popup.png)
+![Menubar when right-clicking (dark mode)](screenshots/menubar.png)
 
 ## Development
 
