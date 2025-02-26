@@ -1,0 +1,112 @@
+<!-- This is a very basic design for the Popup menu you get when you click on the extension on your browser bar.  -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rightclick Text Paster</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      width: 320px;
+      margin: 0;
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+    .url-field {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #0077b5;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+      width: 100%;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #005e93;
+    }
+    .status {
+      margin-top: 10px;
+      font-style: italic;
+      color: #00a651;
+      height: 20px;
+      text-align: center;
+    }
+    .footer {
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+      font-size: 12px;
+      color: #666;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer a {
+      color: #0077b5;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .coffee-link {
+      display: inline-flex;
+      align-items: center;
+    }
+    .coffee-link img {
+      margin-right: 5px;
+      width: 16px;
+      height: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Rightclick Text Paster</h2>
+  
+  <div class="url-field">
+    <label for="linkedin-url">LinkedIn URL:</label>
+    <input type="text" id="linkedin-url" placeholder="https://www.linkedin.com/in/yourprofile">
+  </div>
+  
+  <div class="url-field">
+    <label for="personal-url">Personal Website URL:</label>
+    <input type="text" id="personal-url" placeholder="https://yourwebsite.com">
+  </div>
+  
+  <div class="url-field">
+    <label for="github-url">GitHub URL:</label>
+    <input type="text" id="github-url" placeholder="https://github.com/yourusername">
+  </div>
+  
+  <button id="save-button">Save URLs</button>
+  <div id="status" class="status"></div>
+  
+  <div class="footer">
+    <a href="https://github.com/your-permanent-username" target="_blank">Github Code link</a>
+    <a href="https://www.buymeacoffee.com/zeevabrams" target="_blank" class="coffee-link">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTggOGgtMWExIDEgMCAwIDAtMSAxdjJhMSAxIDAgMCAwIDEgMWgxYTIgMiAwIDEgMCAwLTR6Ij48L3BhdGg+PHBhdGggZD0iTTE4IDh2OGEyIDIgMCAwIDEtMiAySDhhMiAyIDAgMCAxLTItMlY4Ij48L3BhdGg+PHBhdGggZD0iTTE4IDhhMiAyIDAgMCAwLTItMkg4YTIgMiAwIDAgMC0yIDJoMTJ6Ij48L3BhdGg+PC9zdmc+" alt="Coffee">
+      Like this? Buy me a coffee!
+    </a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Rightclick Text Paster",
+    "version": "1.0",
+    "description": "Paste your LinkedIn, personal website, or GitHub URL with a right-click. Can be used for any other text if you'd like",
+    "permissions": ["contextMenus", "storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+}
