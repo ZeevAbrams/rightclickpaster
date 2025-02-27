@@ -1,0 +1,7 @@
+RightClick Paster - Privacy Policy
+
+It's quite simple: It doesn't save anything, or send anything out.
+When you initialize the URLs, they're saved on your Chrome browser locally.
+Nothing is sent/shared/saved anywhere else!
+
+Free and safe!
