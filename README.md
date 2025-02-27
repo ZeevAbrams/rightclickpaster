@@ -34,6 +34,11 @@ A simple Chrome extension that lets you save and paste frequently used URLs (or 
 ![Popopu Menu on extension bar](screenshots/popup.png)
 ![Menubar when right-clicking (dark mode)](screenshots/menubar.png)
 
+TO SET IT UP ON THE TOOLBAR:
+Go to Extensions in Chrome, click Details, and Pin to toolbar:
+![Details](screenshots/Details.png)
+![Pin to toolbar](screenshots/PinToToolbar.png)
+
 ## Development
 
 This extension is built using vanilla JavaScript and Chrome Extension Manifest V3.
