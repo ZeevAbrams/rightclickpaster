@@ -12,7 +12,7 @@ A simple Chrome extension that lets you save and paste frequently used URLs (or 
 ## Installation
 
 ### From Chrome Web Store
-*(Coming soon!)*
+https://chromewebstore.google.com/detail/oclkilggjaebogpeppghdbnokhpihoii?utm_source=item-share-cb
 
 ### Manual Installation
 1. Download or clone this repository
